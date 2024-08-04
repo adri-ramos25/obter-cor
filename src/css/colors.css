@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 100vh;
+}
+
+h1{
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.box-colors{
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.styles-btns-colors{
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.styles-btns-colors:hover{
+    border: 5px solid white;
+}
+
+.box-rgb-hex{
+    border-radius: 20px;
+    background-color: rgb(185, 185, 185);
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box-codes{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 10px;
+    width: 155px;
+    border-radius: 20px;
+}
+
+
+#codes-page{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+#choose-other-color{
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(0, 255, 0), blue);
+    width: 180px;
+    height: 90px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#choose-other-color:hover{
+    background-image: linear-gradient(rgb(126, 0, 0), rgb(0, 131, 0), rgb(0, 0, 114));
+    color: white;
+}
+
+#choosed-color{
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+
+/* Red colors */
+
+#btn-red-1{
+    background-color: rgb(255,0,0);
+    margin-left: 20px;
+}
+
+#btn-red-2{
+    background-color: rgb(140,0,0);
+}
+
+#btn-red-3{
+    background-color: rgb(145,45,45);
+}
+
+
+/* Green colors */
+
+#btn-green-1{
+    background-color: rgb(0,50,5);
+    margin-left: 55px;
+}
+
+#btn-green-2{
+    background-color: rgb(0,75,10);
+}
+
+#btn-green-3{
+    background-color: rgb(0,185,25);
+}
+
+
+/* Blue colors */
+
+#btn-blue-1{
+    background-color: rgb(0,5,52);
+    margin-left: 72px;
+}
+
+#btn-blue-2{
+    background-color: rgb(0,5,90);
+}
+
+#btn-blue-3{
+    background-color: rgb(35,40,115);
+}

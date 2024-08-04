@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+a{
+    position: absolute;
+    text-decoration: none;
+}
+
+
+.box-choose-color{
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Links */
+
+.link-tutorial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.link-tutorial:hover{
+    color: black;
+}
+
+.link-choose-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 180px;
+    height: 90px;
+}
+
+.link-choose-color:hover{
+    color: white;
+}
+
+
+/* Buttons */
+
+#btn-open-tutorial{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+#btn-open-tutorial:hover{
+    border: 5px solid black;
+    background-color: white;
+}
+
+#btn-choose-color{
+    background-image: linear-gradient(red, rgb(0, 255, 0), blue);
+    width: 180px;
+    height: 90px;
+}
+
+#btn-choose-color:hover{
+    background-image: linear-gradient(rgb(126, 0, 0), rgb(0, 131, 0), rgb(0, 0, 114));
+}
