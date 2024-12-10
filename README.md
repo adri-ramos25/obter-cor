@@ -1,4 +1,4 @@
-# Obter Cor
+## Obter Cor
 
 ![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/obter-cor.png)
 
@@ -18,7 +18,7 @@ O projeto está **Concluído**.
 
 ## Funcionalidade
 
-- Seleção de cores.
+Seleção de cores.
 
 
 
