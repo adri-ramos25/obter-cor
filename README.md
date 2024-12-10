@@ -10,11 +10,6 @@ Neste site, os usuários podem selecionar uma cor de uma lista disponível, copi
 
 
 
-## Acesso ao Projeto
-Você pode acessar o projeto funcionando através do seguinte link: [Nome do Projeto - GitHub Pages] (https://seuusuario.github.io/nomedoprojeto/)
-
-
-
 ## Status do Projeto
 
 O projeto está **Concluído**.
