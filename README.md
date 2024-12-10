@@ -65,5 +65,5 @@ tutorial.html              # Página de tutorial
 ## Desenvolvedor
 
 - **Adriano Ramos**
-- LinkedIn: www.linkedin.com/in/adriano-ramos25
+- LinkedIn: https://www.linkedin.com/in/adriano-ramos25
 - Instagram: https://www.instagram.com/adriano.ramos9/
