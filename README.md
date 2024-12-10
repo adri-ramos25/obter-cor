@@ -49,6 +49,7 @@ src/
       colors.js            # Lógica para seleção de cores
 colors.html                # Página de seleção de cores
 index.html                 # Página inicial
+obter-cor.png              # Screenshot do site
 tutorial.html              # Página de tutorial
 ```
 
