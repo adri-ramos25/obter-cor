@@ -9,6 +9,12 @@
 Neste site, os usuários podem selecionar uma cor de uma lista disponível, copiar seu código RGB ou hexadecimal e visualizar a cor escolhida em tempo real.
 
 
+
+## Acesso ao Projeto
+
+Você pode acessar o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/obter-cor/
+
+
 ## Status do Projeto
 
 O projeto está **Concluído**.
