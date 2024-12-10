@@ -1,4 +1,4 @@
-# Hamburgueria
+# Obter Cor
 
 ![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/obter-cor.png)
 
