@@ -1,0 +1,17 @@
+@media (max-width: 360px) {
+    
+    .title-choose-colors-page{
+        width: 10em;
+        font-size: 25px;
+    }
+
+    .box-colors{
+        width: 250px;
+        padding: 10px 10px;
+    }
+
+    .text-colors{
+        font-size: 10px;
+
+    }
+}

@@ -66,9 +66,19 @@ a:hover{
 }
 
 
+
 .border{
     border: 3px solid black;
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 20px;
+}
+
+.developer-name{
+    width: 270px;
+    margin: auto;
+    padding-top: 60px;
+    color: rgb(40, 115, 255);
+    font-weight: bold;
+    text-align: center;
 }

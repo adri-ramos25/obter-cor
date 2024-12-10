@@ -28,6 +28,7 @@ a{
 }
 
 
+
 .box-choose-color{
     background-color: rgb(185, 185, 185);
     display: flex;
@@ -67,8 +68,19 @@ a{
     color: white;
 }
 
+.developer-name{
+    width: 270px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: rgb(40, 115, 255);
+    font-weight: bold;
+    text-align: center;
+}
 
-/* Buttons */
+
+
+/* Botoes */
 
 #btn-open-tutorial{
     background-color: black;
