@@ -4,10 +4,9 @@
 
 
 
-## Descrição
+## Sobre o Projeto
 
-Neste site, os usuários podem selecionar uma cor de uma lista disponível, copiar seu código RGB ou hexadecimal e visualizar a cor escolhida em tempo real. Desenvolvendo este site eu pude aplicar conceitos um pouco mais avançados de JavaScript, HTML e CSS.
-
+Neste site, os usuários podem selecionar uma cor de uma lista disponível, copiar seu código RGB ou hexadecimal e visualizar a cor escolhida em tempo real.
 
 
 ## Status do Projeto
@@ -18,7 +17,7 @@ O projeto está **Concluído**.
 
 ## Funcionalidade
 
-Seleção de cores.
+Seleção de cores
 
 
 
@@ -57,8 +56,8 @@ tutorial.html              # Página de tutorial
 
 
 
-## Autor
+## Desenvolvedor
 
 - **Adriano Ramos**
-- [LinkedIn] (www.linkedin.com/in/adriano-ramos25)
-- [Instagram] (https://www.instagram.com/adriano.ramos9/)
+- LinkedIn: www.linkedin.com/in/adriano-ramos25
+- Instagram: https://www.instagram.com/adriano.ramos9/
