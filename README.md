@@ -1,6 +1,6 @@
 ## Obter Cor
 
-![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/obter-cor.png)
+![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/screenshot.png)
 
 
 
@@ -49,7 +49,7 @@ src/
       colors.js            # Lógica para seleção de cores
 colors.html                # Página de seleção de cores
 index.html                 # Página inicial
-obter-cor.png              # Screenshot do site
+screenshot.png             # Screenshot do projeto
 tutorial.html              # Página de tutorial
 ```
 
