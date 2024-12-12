@@ -47,6 +47,7 @@ src/
       tutorial.css         # Estilos da página de tutorial
    js/
       colors.js            # Lógica para seleção de cores
+README.md                  # Informações do projeto
 colors.html                # Página de seleção de cores
 index.html                 # Página inicial
 screenshot.png             # Screenshot do projeto
