@@ -24,7 +24,7 @@ O projeto está **Concluído**.
 ## Funcionalidade
 
 ```plaintext
-Seleção de cor   # Permite que o usuário selecione uma cor disponível e copie seu código RGB ou hexadecimal e cole onde quiser
+Seleção de cor   # Permite que o usuário selecione uma cor disponível, copie seu código RGB ou hexadecimal e cole onde quiser
 ```
 
 
