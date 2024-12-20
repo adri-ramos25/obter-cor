@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-Neste site, os usuários podem selecionar uma cor disponível, copiar seu código RGB ou hexadecimal e colar onde quiserem.
+Projeto que eu desenvolvi para aplicar conceitos um pouco mais avançados de JavaScript. Neste site, os usuários podem selecionar uma cor disponível, copiar seu código RGB ou hexadecimal e colar onde quiserem.
 
 
 
