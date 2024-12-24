@@ -1,6 +1,6 @@
 ## Obter Cor
 
-![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/obter-cor.png)
+![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/screenshot.png)
 
 
 
@@ -13,7 +13,6 @@ Projeto que eu desenvolvi para aplicar conceitos um pouco mais avançados de Jav
 ## Acesso ao Projeto
 
 Você pode acessar o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/obter-cor/
-
 
 
 ## Status do Projeto
@@ -29,6 +28,8 @@ Seleção de cor   # Permite que o usuário selecione uma cor disponível, copie
 ```
 
 
+
+## Tecnologias Utilizadas
 
 ```plaintext
 - JavaScript   # Para adicionar a lógica de seleção de cor
