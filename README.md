@@ -17,7 +17,7 @@ Você pode acessar o projeto funcionando através do seguinte link: https://adri
 
 ## Status do Projeto
 
-O projeto está **Concluído**.
+O projeto está **Concluído**, mas algumas alterações e melhorias ainda podem ser feitas nele.
 
 
 
