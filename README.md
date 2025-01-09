@@ -35,7 +35,7 @@ Seleção de cor   # Permite que o usuário selecione uma cor disponível, copie
 - JavaScript   # Para adicionar a lógica de seleção de cor
 - HTML         # Para adicionar a estrutura das páginas do site
 - CSS          # Para adicionar estilo ao site
-- Figma        # Para criar o layout do site
+- Figma        # Para criar a interface do projeto
 ```
 
 
@@ -54,7 +54,6 @@ src/                   # Código-fonte do projeto
 README.md              # Informações do projeto
 colors.html            # Página de seleção de cores
 index.html             # Página inicial
-screenshot.png         # Screenshot do projeto
 tutorial.html          # Página de tutorial
 ```
 
