@@ -1,6 +1,6 @@
 ## Obter Cor
 
-![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/screenshot.png)
+![Imagens do projeto](https://github.com/adri-ramos25/obter-cor/raw/main/src/images/screenshot.png)
 
 
 
