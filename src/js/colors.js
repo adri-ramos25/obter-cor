@@ -27,6 +27,7 @@ let codes = {
 
 chooseOtherColor.addEventListener("click", () => {
     document.getElementById("choose-colors-page").style.display = "block";
+    document.getElementsByClassName("title-choose-colors-page")[0].style.display = "block";
     document.getElementById("codes-page").style.display = "none";
 })
 
@@ -34,6 +35,7 @@ chooseOtherColor.addEventListener("click", () => {
 
 function openCodesPage() {
     document.getElementById("choose-colors-page").style.display = "none";
+    document.getElementsByClassName("title-choose-colors-page")[0].style.display = "none";
     document.getElementById("codes-page").style.display = "block";
 }
 

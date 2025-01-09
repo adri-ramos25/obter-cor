@@ -2,22 +2,39 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-family: sans-serif;
     font-weight: bold;
-    height: 100vh;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 h1{
     font-size: 32px;
-    margin-top: 80px;
-    margin-bottom: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
 }
 
 button{
     border: none;
     border-radius: 20px;
     cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #1978E5;
+    background-color: #000;
+    margin-top: 50px;
 }
 
 
@@ -63,20 +80,9 @@ button{
     border-radius: 20px;
 }
 
-.developer-name{
-    width: 270px;
-    margin: auto;
-    padding-bottom: 60px;
-    color: rgb(40, 115, 255);
-    font-weight: bold;
-    text-align: center;
-}
-
 
 
 #codes-page{
-    margin-top: 100px;
-    margin-bottom: 50px;
     display: none;
 }
 

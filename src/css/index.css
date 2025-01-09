@@ -1,16 +1,24 @@
-body{
+body, html{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: sans-serif;
-    height: 100vh;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 8em;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 button{
@@ -25,6 +33,13 @@ button{
 a{
     position: absolute;
     text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #1978E5;
+    background-color: #000;
 }
 
 
@@ -67,17 +82,6 @@ a{
 .link-choose-color:hover{
     color: white;
 }
-
-.developer-name{
-    width: 270px;
-    margin: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    color: rgb(40, 115, 255);
-    font-weight: bold;
-    text-align: center;
-}
-
 
 
 /* Botoes */

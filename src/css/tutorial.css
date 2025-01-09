@@ -1,26 +1,20 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
     font-weight: bold;
 }
 
 main{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(185, 185, 185);
-    font-size: 14px;
-    padding: 20px 20px;
-    border-radius: 20px;
+    justify-content: center;
 }
 
 h1{
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -65,20 +59,30 @@ a:hover{
     color: black;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    color: #1978E5;
+    background-color: #000;
+    margin-top: 50px;
+}
 
+
+
+.box-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+    font-size: 14px;
+    padding: 20px 20px;
+    width: 20em;
+    border-radius: 20px;
+}
 
 .border{
     border: 3px solid black;
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 20px;
-}
-
-.developer-name{
-    width: 270px;
-    margin: auto;
-    padding-top: 60px;
-    color: rgb(40, 115, 255);
-    font-weight: bold;
-    text-align: center;
 }
