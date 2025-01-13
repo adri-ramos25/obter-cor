@@ -4,18 +4,14 @@ body{
     justify-content: center;
     font-family: sans-serif;
     font-weight: bold;
-    margin: 0;
 }
 
 header{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-h1{
-    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 main{
@@ -29,128 +25,398 @@ button{
     cursor: pointer;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    color: #1978E5;
-    background-color: #000;
-    margin-top: 50px;
-}
 
 
-
+/* Pagina de selecao de cores */
 .box-colors{
-    background-color: rgb(185, 185, 185);
+    background-color: #626262;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     padding: 20px 20px;
     border-radius: 20px;
     margin-bottom: 50px;
 }
 
 .styles-btns-colors{
+    border: 1px solid #fff;
     border-radius: 15px;
     width: 50px;
     height: 50px;
     margin: 10px;
 }
 
-.styles-btns-colors:hover{
-    border: 5px solid white;
+
+
+/* Cor vermelha */
+.btn-red-1{
+    background-color: #ff0000;
+}
+.btn-red-2{
+    background-color: #ff4d4d;
+}
+.btn-red-3{
+    background-color: #ff9999;
+}
+.btn-red-4{
+    background-color: #ff6666;
+}
+.btn-red-5{
+    background-color: #cc0000;
+}
+.btn-red-6{
+    background-color: #990000;
+}
+.btn-red-7{
+    background-color: #ff3333;
+}
+.btn-red-8{
+    background-color: #b20000;
+}
+.btn-red-9{
+    background-color: #e60000;
+}
+.btn-red-10{
+    background-color: #800000;
 }
 
-.box-rgb-hex{
+
+/* Cor azul */
+.btn-blue-1{
+    background-color: #0000ff;
+}
+.btn-blue-2{
+    background-color: #6666ff;
+}
+.btn-blue-3{
+    background-color: #9999ff;
+}
+.btn-blue-4{
+    background-color: #4d4Dff;
+}
+.btn-blue-5{
+    background-color: #0000cc;
+}
+.btn-blue-6{
+    background-color: #000099;
+}
+.btn-blue-7{
+    background-color: #3333ff;
+}
+.btn-blue-8{
+    background-color: #1a1aff;
+}
+.btn-blue-9{
+    background-color: #0033cc;
+}
+.btn-blue-10{
+    background-color: #003399;
+}
+
+
+/* Cor verde */
+.btn-green-1{
+    background-color: #00ff00;
+}
+.btn-green-2{
+    background-color: #66ff66;
+}
+.btn-green-3{
+    background-color: #99ff99;
+}
+.btn-green-4{
+    background-color: #33cc33;
+}
+.btn-green-5{
+    background-color: #00cc00;
+}
+.btn-green-6{
+    background-color: #009900;
+}
+.btn-green-7{
+    background-color: #66cc66;
+}
+.btn-green-8{
+    background-color: #33ff33;
+}
+.btn-green-9{
+    background-color: #007f00;
+}
+.btn-green-10{
+    background-color: #004d00;
+}
+
+
+/* Cor amarela */
+.btn-yellow-1{
+    background-color: #ffff00;
+}
+.btn-yellow-2{
+    background-color: #ffff99;
+}
+.btn-yellow-3{
+    background-color: #ffff66;
+}
+.btn-yellow-4{
+    background-color: #cccc00;
+}
+.btn-yellow-5{
+    background-color: #ffcc33;
+}
+.btn-yellow-6{
+    background-color: #ffcc66;
+}
+.btn-yellow-7{
+    background-color: #ff9900;
+}
+.btn-yellow-8{
+    background-color: #ffb84d;
+}
+.btn-yellow-9{
+    background-color: #ffd700;
+}
+.btn-yellow-10{
+    background-color: #ffe066;
+}
+
+
+/* Cor roxa */
+.btn-purple-1{
+    background-color: #800080;
+}
+.btn-purple-2{
+    background-color: #993399;
+}
+.btn-purple-3{
+    background-color: #bf40bf;
+}
+.btn-purple-4{
+    background-color: #cc66cc;
+}
+.btn-purple-5{
+    background-color: #e6b3e6;
+}
+.btn-purple-6{
+    background-color: #660066;
+}
+.btn-purple-7{
+    background-color: #aa00aa;
+}
+.btn-purple-8{
+    background-color: #990099;
+}
+.btn-purple-9{
+    background-color: #d94ed9;
+}
+.btn-purple-10{
+    background-color: #b266b2;
+}
+
+
+/* Cor laranja */
+.btn-orange-1{
+    background-color: #ffa500;
+}
+.btn-orange-2{
+    background-color: #ff7f50;
+}
+.btn-orange-3{
+    background-color: #ff6347;
+}
+.btn-orange-4{
+    background-color: #ff4500;
+}
+.btn-orange-5{
+    background-color: #ff8c00;
+}
+.btn-orange-6{
+    background-color: #ffdab9;
+}
+.btn-orange-7{
+    background-color: #ffb347;
+}
+.btn-orange-8{
+    background-color: #ffb76b;
+}
+.btn-orange-9{
+    background-color: #ffa07a;
+}
+.btn-orange-10{
+    background-color: #e59400;
+}
+
+
+/* Cor rosa */
+.btn-rose-1{
+    background-color: #ffc0cb;
+}
+.btn-rose-2{
+    background-color: #ffb6c1;
+}
+.btn-rose-3{
+    background-color: #ff69b4;
+}
+.btn-rose-4{
+    background-color: #ff1493;
+}
+.btn-rose-5{
+    background-color: #db7093;
+}
+.btn-rose-6{
+    background-color: #ff87b3;
+}
+.btn-rose-7{
+    background-color: #f2a2e8;
+}
+.btn-rose-8{
+    background-color: #f497d1;
+}
+.btn-rose-9{
+    background-color: #e75480;
+}
+.btn-rose-10{
+    background-color: #ffc3a0;
+}
+
+
+/* Cor cinza */
+.btn-gray-1{
+    background-color: #808080;
+}
+.btn-gray-2{
+    background-color: #a9a9a9;
+}
+.btn-gray-3{
+    background-color: #c0c0c0;
+}
+.btn-gray-4{
+    background-color: #d3d3d3;
+}
+.btn-gray-5{
+    background-color: #696969;
+}
+.btn-gray-6{
+    background-color: #b0b0b0;
+}
+.btn-gray-7{
+    background-color: #999999;
+}
+.btn-gray-8{
+    background-color: #e0e0e0;
+}
+.btn-gray-9{
+    background-color: #f5f5f5;
+}
+.btn-gray-10{
+    background-color: #505050;
+}
+
+
+/* Cor marrom */
+.btn-brown-1{
+    background-color: #8b4513;
+}
+.btn-brown-2{
+    background-color: #a0522d;
+}
+.btn-brown-3{
+    background-color: #d2691e;
+}
+.btn-brown-4{
+    background-color: #cd853f;
+}
+.btn-brown-5{
+    background-color: #f4a460;
+}
+.btn-brown-6{
+    background-color: #deB887;
+}
+.btn-brown-7{
+    background-color: #ffe4C4;
+}
+.btn-brown-8{
+    background-color: #8b0000;
+}
+.btn-brown-9{
+    background-color: #a52a2a;
+}
+.btn-brown-10{
+    background-color: #654321;
+}
+
+
+/* Cor preta */
+.btn-black-1{
+    background-color: #000;
+}
+.btn-black-2{
+    background-color: #0d0d0d;
+}
+.btn-black-3{
+    background-color: #1a1a1a;
+}
+.btn-black-4{
+    background-color: #262626;
+}
+.btn-black-5{
+    background-color: #333333;
+}
+.btn-black-6{
+    background-color: #404040;
+}
+.btn-black-7{
+    background-color: #4d4d4d;
+}
+.btn-black-8{
+    background-color: #595959;
+}
+.btn-black-9{
+    background-color: #666666;
+}
+.btn-black-10{
+    background-color: #000;
+}
+
+
+
+/* Pagina onde aparece a cor escolhida pelo usuario */
+#box-choosed-color{
     border-radius: 20px;
-    background-color: rgb(185, 185, 185);
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    padding: 20px;
+    background-color: #626262;
+    color: #dCdcdc;
+    width: 18em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
 }
 
-.box-codes{
+#box-color-code{
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #fff;
+    color: #000;
     padding: 10px 10px;
     width: 155px;
     border-radius: 20px;
 }
 
-
-
-#codes-page{
-    display: none;
-}
-
-#choose-other-color{
-    background-image: linear-gradient(rgb(255, 0, 0), rgb(0, 255, 0), blue);
+#btn-choose-other-color{
+    background-image: linear-gradient(#ff0000, #00ff00, #0000ff);
     width: 180px;
     height: 90px;
-    margin-top: 40px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-#choose-other-color:hover{
-    background-image: linear-gradient(rgb(126, 0, 0), rgb(0, 131, 0), rgb(0, 0, 114));
-    color: white;
+#btn-choose-other-color:hover{
+    background-image: linear-gradient(#7e0000, #008300, #000072);
+    color: #fff;
 }
 
 #choosed-color{
+    border: 1px solid #fff;
     border-radius: 15px;
     width: 50px;
     height: 50px;
     margin: 10px;
-}
-
-
-/* Cores vermelhas */
-
-#btn-red-1{
-    background-color: rgb(255,0,0);
-    margin-left: 20px;
-}
-
-#btn-red-2{
-    background-color: rgb(140,0,0);
-}
-
-#btn-red-3{
-    background-color: rgb(145,45,45);
-}
-
-
-/* Cores verdes */
-
-#btn-green-1{
-    background-color: rgb(0,50,5);
-    margin-left: 55px;
-}
-
-#btn-green-2{
-    background-color: rgb(0,75,10);
-}
-
-#btn-green-3{
-    background-color: rgb(0,185,25);
-}
-
-
-/* Cores azuis */
-
-#btn-blue-1{
-    background-color: rgb(0,5,52);
-    margin-left: 72px;
-}
-
-#btn-blue-2{
-    background-color: rgb(0,5,90);
-}
-
-#btn-blue-3{
-    background-color: rgb(35,40,115);
 }

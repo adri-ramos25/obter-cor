@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-Projeto que eu desenvolvi para aplicar conceitos um pouco mais avançados de JavaScript. Neste site, os usuários podem selecionar uma cor disponível, copiar seu código RGB ou hexadecimal e colar onde quiserem.
+Neste site, é possível obter uma cor disponível selecionando ela nas opções de cores e copiando o código dela. Após copiar o código, basta colar ele onde quiser para usar a cor escolhida.
 
 
 
@@ -17,14 +17,14 @@ Você pode acessar o projeto funcionando através do seguinte link: https://adri
 
 ## Status do Projeto
 
-O projeto está **Concluído**.
+O projeto está **Concluído**, mas algumas melhorias ainda podem ser feitas nele.
 
 
 
 ## Funcionalidade
 
 ```plaintext
-Seleção de cor   # Permite que o usuário selecione uma cor disponível, copie seu código RGB ou hexadecimal e cole onde quiser
+Seleção de cor   #Permite que o usuário obtenha uma cor disponível nas opções de cores copiando o código dela
 ```
 
 
@@ -32,10 +32,10 @@ Seleção de cor   # Permite que o usuário selecione uma cor disponível, copie
 ## Tecnologias Utilizadas
 
 ```plaintext
-- JavaScript   # Para adicionar a lógica de seleção de cor
-- HTML         # Para adicionar a estrutura das páginas do site
-- CSS          # Para adicionar estilo ao site
-- Figma        # Para criar a interface do projeto
+- JavaScript   #Para a lógica de seleção de cor
+- HTML         #Para a estrutura das páginas do projeto
+- CSS          #Para o estilo do projeto
+- Figma        #Para criar a interface do projeto
 ```
 
 
@@ -43,18 +43,19 @@ Seleção de cor   # Permite que o usuário selecione uma cor disponível, copie
 ## Estrutura de Pastas
 
 ```plaintext
-src/                   # Código-fonte do projeto
-   css/                # Pasta com arquivos CSS
-      colors.css       # Estilos da página de seleção de cores
-      index.css        # Estilos principais da página inicial
-      responsive.css   # Estilos para design responsivo
-      tutorial.css     # Estilos da página de tutorial
-   js/                 # Pasta com arquivos JavaScript
-      colors.js        # Lógica para seleção de cores
-README.md              # Informações do projeto
-colors.html            # Página de seleção de cores
-index.html             # Página inicial
-tutorial.html          # Página de tutorial
+src/                      #Código-fonte do projeto
+   css/                   #Pasta com arquivos CSS
+      colors.css          #Estilos da página de seleção de cores
+      index.css           #Estilos principais da página inicial
+      responsive.css      #Estilos para design responsivo
+      tutorial.css        #Estilos da página de tutorial
+   js/                    #Pasta com arquivos JavaScript
+      colors.js           #Lógica para seleção de cores
+      selected-color.js   #Lógica que faz a cor selecionada e o código dela aparecer
+README.md                 #Informações do projeto
+colors.html               #Página de seleção de cores
+index.html                #Página inicial
+tutorial.html             #Página mostrando como usar o projeto
 ```
 
 

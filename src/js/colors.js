@@ -1,113 +1,70 @@
-const btnRed1 = document.getElementById("btn-red-1");
-const btnRed2 = document.getElementById("btn-red-2");
-const btnRed3 = document.getElementById("btn-red-3");
+const btnRedColor = document.getElementsByClassName("btn-red");
+const btnBlueColor = document.getElementsByClassName("btn-blue");
+const btnGreenColor = document.getElementsByClassName("btn-green");
+const btnYellowColor = document.getElementsByClassName("btn-yellow");
+const btnPurpleColor = document.getElementsByClassName("btn-purple");
+const btnOrangeColor = document.getElementsByClassName("btn-orange");
+const btnRoseColor = document.getElementsByClassName("btn-rose");
+const btnGrayColor = document.getElementsByClassName("btn-gray");
+const btnBrownColor = document.getElementsByClassName("btn-brown");
+const btnBlackColor = document.getElementsByClassName("btn-black");
 
-const btnGreen1 = document.getElementById("btn-green-1");
-const btnGreen2 = document.getElementById("btn-green-2");
-const btnGreen3 = document.getElementById("btn-green-3");
 
-const btnBlue1 = document.getElementById("btn-blue-1");
-const btnBlue2 = document.getElementById("btn-blue-2");
-const btnBlue3 = document.getElementById("btn-blue-3"); 
-
-const boxRgb = document.getElementById("box-rgb-code");
-const boxHex = document.getElementById("box-hex-code");
+const body = document.getElementById("body");
+const titleChooseColorPage = document.getElementById("title-choose-colors-page");
+const chooseColorPage = document.getElementById("choose-colors-page");
+const boxColorCode = document.getElementById("box-color-code");
+const boxChoosedColor = document.getElementById("box-choosed-color");
 const choosedColor = document.getElementById("choosed-color");
+const btnChooseOtherColor = document.getElementById("btn-choose-other-color");
 
-const chooseOtherColor = document.getElementById("choose-other-color");
 
-let codes = {
-    rgb: ["255,0,0", "140,0,0", "145,45,45", "0,50,5", "0,75,10", "0,185,25", "0,5,52", "0,5,90", "35,40,115"],
-
-    hex: ["#FF0000", "#8C0000", "#912D2D", "#003205", "#004B0A", "#00B919", "#000534", "#00055A", "#232873"],
-
-    color: ["rgb(255,0,0)", "rgb(140,0,0)", "rgb(145,45,45)", "rgb(0,50,5)", "rgb(0,75,10)", "rgb(0,185,25)", "rgb(0,5,52)", "rgb(0,5,90)", "rgb(35,40,115)"]
+let redColors = {
+    codeRed: ["#ff0000", "#ff4d4d", "#ff9999", "#ff6666", "#cc0000", "#990000", "#ff3333", "#b20000", "#e60000", "#800000"]
+}
+let blueColors = {
+    codeBlue: ["#0000ff", "#6666ff", "#9999ff", "#4d4Dff", "#0000cc", "#000099", "#3333ff", "#1a1aff", "#0033cc", "#003399"]
+}
+let greenColors = {
+    codeGreen: ["#00ff00", "#66ff66", "#99ff99", "#33cc33", "#00cc00", "#009900", "#66cc66", "#33ff33", "#007f00", "#004d00"]
+}
+let yellowColors = {
+    codeYellow: ["#ffff00", "#ffff99", "#ffff66", "#cccc00", "#ffcc33", "#ffcc66", "#ff9900", "#ffb84d", "#ffd700", "#ffe066"]
+}
+let purpleColors = {
+    codePurple: ["#800080", "#993399", "#bf40bf", "#cc66cc", "#e6b3e6", "#660066", "#aa00aa", "#990099", "#d94ed9", "#b266b2"]
+}
+let orangeColors = {
+    codeOrange: ["#ffa500", "#ff7f50", "#ff6347", "#ff4500", "#ff8c00", "#ffdab9", "#ffb347", "#ffb76b", "#ffa07a", "#e59400"]
+}
+let roseColors = {
+    codeRose: ["#ffc0cb", "#ffb6c1", "#ff69b4", "#ff1493", "#db7093", "#ff87b3", "#f2a2e8", "#f497d1", "#e75480", "#ffc3a0"]
+}
+let grayColors = {
+    codeGray: ["#808080", "#a9a9a9", "#c0c0c0", "#d3d3d3", "#696969", "#b0b0b0", "#999999", "#e0e0e0", "#f5f5f5", "#505050"]
+}
+let brownColors = {
+    codeBrown: ["#8b4513", "#a0522d", "#d2691e", "#cd853f", "#f4a460", "#deB887", "#ffe4C4", "#8b0000", "#a52a2a", "#654321"]
+}
+let blackColors = {
+    codeBlack: ["#000", "#0d0d0d", "#1a1a1a", "#262626", "#333333", "#404040", "#4d4d4d", "#595959", "#666666", "#000"]
 }
 
 
-chooseOtherColor.addEventListener("click", () => {
-    document.getElementById("choose-colors-page").style.display = "block";
-    document.getElementsByClassName("title-choose-colors-page")[0].style.display = "block";
-    document.getElementById("codes-page").style.display = "none";
+btnChooseOtherColor.addEventListener("click", () => {
+    body.style.height = "100%";
+    titleChooseColorPage.style.display = "block";
+    chooseColorPage.style.display = "block";
+    boxChoosedColor.style.display = "none";
 })
-
 
 
 function openCodesPage() {
-    document.getElementById("choose-colors-page").style.display = "none";
-    document.getElementsByClassName("title-choose-colors-page")[0].style.display = "none";
-    document.getElementById("codes-page").style.display = "block";
+    body.style.height = "100vh";
+    titleChooseColorPage.style.display = "none";
+    chooseColorPage.style.display = "none";
+    boxChoosedColor.style.display = "block";
+    boxChoosedColor.style.display = "flex";
+    boxChoosedColor.style.flexDirection = "column";
+    boxChoosedColor.style.alignItems = "center";
 }
-
-
-
-// Cores vermelhas
-
-btnRed1.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[0];
-    boxHex.innerText = codes.hex[0];
-    choosedColor.style.background = codes.color[0];
-    openCodesPage();
-})
-
-btnRed2.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[1];
-    boxHex.innerText = codes.hex[1];
-    choosedColor.style.background = codes.color[1];
-    openCodesPage();
-})
-
-btnRed3.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[2];
-    boxHex.innerText = codes.hex[2];
-    choosedColor.style.background = codes.color[2];
-    openCodesPage();
-})
-
-
-// Cores verdes
-
-btnGreen1.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[3];
-    boxHex.innerText = codes.hex[3];
-    choosedColor.style.background = codes.color[3];
-    openCodesPage();
-})
-
-btnGreen2.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[4];
-    boxHex.innerText = codes.hex[4];
-    choosedColor.style.background = codes.color[4];
-    openCodesPage();
-})
-
-btnGreen3.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[5];
-    boxHex.innerText = codes.hex[5];
-    choosedColor.style.background = codes.color[5];
-    openCodesPage();
-})
-
-
-// Cores azuis
-
-btnBlue1.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[6];
-    boxHex.innerText = codes.hex[6];
-    choosedColor.style.background = codes.color[6];
-    openCodesPage();
-})
-
-btnBlue2.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[7];
-    boxHex.innerText = codes.hex[7];
-    choosedColor.style.background = codes.color[7];
-    openCodesPage();
-})
-
-btnBlue3.addEventListener("click", () => {
-    boxRgb.innerText = codes.rgb[8];
-    boxHex.innerText = codes.hex[8];
-    choosedColor.style.background = codes.color[8];
-    openCodesPage();
-})
