@@ -28,13 +28,17 @@ button{
 
 
 /* Pagina de selecao de cores */
-.box-colors{
+.box-background-colors{
     background-color: #626262;
     display: flex;
     flex-direction: column;
     padding: 20px 20px;
     border-radius: 20px;
     margin-bottom: 50px;
+}
+
+.box-colors{
+    display: flex;
 }
 
 .styles-btns-colors{

@@ -1,3 +1,25 @@
-@media (max-width: 360px) {
-    
+@media (max-width: 450px) {
+
+    /* Pagina de tutorial */
+    .box-main{
+        width: 16em;
+    }
+    .border{
+        width: 13em !important;
+    }
+    .boder-texts{
+        font-size: 12px;
+    }
+
+
+    /* Pagina de selecao de cores */
+    .box-background-colors{
+        width: 17em;
+    }
+
+
+    /* Pagina que mostra a cor selecionada */
+    #box-choosed-color{
+        width: 16em;
+    }
 }
