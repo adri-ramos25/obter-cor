@@ -10,7 +10,9 @@ const btnBrownColor = document.getElementsByClassName("btn-brown");
 const btnBlackColor = document.getElementsByClassName("btn-black");
 
 
+const title = document.getElementById("title");
 const body = document.getElementById("body");
+const header = document.getElementById("header");
 const titleChooseColorPage = document.getElementById("title-choose-colors-page");
 const chooseColorPage = document.getElementById("choose-colors-page");
 const boxColorCode = document.getElementById("box-color-code");
@@ -52,7 +54,10 @@ let blackColors = {
 
 
 btnChooseOtherColor.addEventListener("click", () => {
+    title.textContent = "Obter Cor - Escolher Cor";
     body.style.height = "100%";
+    header.style.marginTop = "30px";
+    header.style.marginBottom = "30px";
     titleChooseColorPage.style.display = "block";
     chooseColorPage.style.display = "block";
     boxChoosedColor.style.display = "none";
@@ -60,7 +65,10 @@ btnChooseOtherColor.addEventListener("click", () => {
 
 
 function openCodesPage() {
+    title.textContent = "Obter Cor - Cor Escolhida";
     body.style.height = "100vh";
+    header.style.marginTop = "0";
+    header.style.marginBottom = "0";
     titleChooseColorPage.style.display = "none";
     chooseColorPage.style.display = "none";
     boxChoosedColor.style.display = "block";

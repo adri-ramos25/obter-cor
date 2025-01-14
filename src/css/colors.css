@@ -389,8 +389,6 @@ button{
     background-color: #626262;
     color: #dCdcdc;
     width: 18em;
-    margin-top: 30px;
-    margin-bottom: 30px;
     display: none;
 }
 
@@ -408,7 +406,7 @@ button{
     background-image: linear-gradient(#ff0000, #00ff00, #0000ff);
     width: 180px;
     height: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: bold;
 }
 

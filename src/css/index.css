@@ -1,13 +1,10 @@
 body{
-    height: 100vh;
-}
-
-body, html{
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: sans-serif;
     font-weight: bold;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -16,13 +13,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5em;
 }
 
 main{
     display: flex;
-    justify-content: center;
-    flex: 1;
+    justify-content: center; 
 }
 
 button{
