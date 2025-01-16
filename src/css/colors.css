@@ -29,10 +29,10 @@ button{
 
 /* Pagina de selecao de cores */
 .box-background-colors{
-    background-color: #626262;
     display: flex;
     flex-direction: column;
     padding: 20px 20px;
+    border: 5px solid #000;
     border-radius: 20px;
     margin-bottom: 50px;
 }
@@ -42,7 +42,7 @@ button{
 }
 
 .styles-btns-colors{
-    border: 1px solid #fff;
+    border: 2px solid #000;
     border-radius: 15px;
     width: 50px;
     height: 50px;
@@ -385,9 +385,8 @@ button{
 /* Pagina onde aparece a cor escolhida pelo usuario */
 #box-choosed-color{
     border-radius: 20px;
+    border: 5px solid #000;
     padding: 20px;
-    background-color: #626262;
-    color: #dCdcdc;
     width: 18em;
     display: none;
 }
@@ -396,9 +395,9 @@ button{
     display: flex;
     justify-content: center;
     background-color: #fff;
-    color: #000;
     padding: 10px 10px;
     width: 155px;
+    border: 2px solid #000;
     border-radius: 20px;
 }
 
@@ -416,7 +415,7 @@ button{
 }
 
 #choosed-color{
-    border: 1px solid #fff;
+    border: 2px solid #000;
     border-radius: 15px;
     width: 50px;
     height: 50px;

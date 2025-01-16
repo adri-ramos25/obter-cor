@@ -43,10 +43,10 @@ footer{
 
 
 .box-choose-color{
-    background-color: #626262;
     display: flex;
     justify-content: center;
     padding: 30px 30px;
+    border: 5px solid #000;
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
