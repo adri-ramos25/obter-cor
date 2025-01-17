@@ -12,12 +12,12 @@ Neste site, é possível obter uma cor disponível selecionando ela nas opções
 
 ## Acesso ao Projeto
 
-Você pode acessar o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/obter-cor/
+Você pode ver o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/obter-cor/
 
 
 ## Status do Projeto
 
-O projeto está **Concluído**, mas algumas melhorias ainda podem ser feitas nele.
+O projeto está **Concluído**, mas alguns ajustes ainda podem ser feitos nele.
 
 
 
@@ -33,7 +33,7 @@ Seleção de cor   #Permite que o usuário obtenha uma cor disponível nas opç�
 
 ```plaintext
 - JavaScript   #Para a lógica de seleção de cor
-- HTML         #Para a estrutura das páginas do projeto
+- HTML         #Para a estrutura das páginas
 - CSS          #Para o estilo do projeto
 - Figma        #Para criar a interface do projeto
 ```
@@ -55,7 +55,7 @@ src/                      #Código-fonte do projeto
 README.md                 #Informações do projeto
 colors.html               #Página de seleção de cores
 index.html                #Página inicial
-tutorial.html             #Página mostrando como usar o projeto
+tutorial.html             #Página que mostra como usar o projeto
 ```
 
 

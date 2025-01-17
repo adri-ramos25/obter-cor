@@ -34,12 +34,6 @@ a{
     text-decoration: none;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    color: #1978e5;
-}
-
 
 
 .box-choose-color{
@@ -79,6 +73,18 @@ footer{
 
 .link-choose-color:hover{
     color: #fff;
+}
+
+.box-developer-name{
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.developer-name{
+    position: relative;
+    color: #1978e5;
+    text-decoration: underline;
 }
 
 
