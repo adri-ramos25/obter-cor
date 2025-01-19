@@ -82,7 +82,9 @@ a{
 }
 
 .developer-name{
+    background-color: #000;
     position: relative;
+    padding: 5px;
     color: #1978e5;
     text-decoration: underline;
 }
