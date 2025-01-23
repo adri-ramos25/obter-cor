@@ -14,10 +14,16 @@ Neste site, é possível obter uma cor disponível selecionando ela nas opções
 
 Você pode ver o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/obter-cor/
 
+Ou, se preferir rodar localmente:
+
+1. Clone o repositório: `git clone https://github.com/adri-ramos25/obter-cor.git`
+2. Abra o arquivo `index.html` no navegador.
+
+
 
 ## Status do Projeto
 
-O projeto está **Concluído**, mas alguns ajustes ainda podem ser feitos nele.
+O projeto está **Concluído**.
 
 
 
@@ -51,16 +57,9 @@ src/                      #Código-fonte do projeto
       tutorial.css        #Estilos da página de tutorial
    js/                    #Pasta com arquivos JavaScript
       colors.js           #Lógica para seleção de cores
-      selected-color.js   #Lógica que faz a cor selecionada e o código dela aparecer
+      selected-color.js   #Lógica que faz a cor selecionada e o código dela aparecerem
 README.md                 #Informações do projeto
 colors.html               #Página de seleção de cores
 index.html                #Página inicial
 tutorial.html             #Página que mostra como usar o projeto
 ```
-
-
-
-## Como Usar
-
-1. Clone o repositório: `git clone https://github.com/adri-ramos25/obter-cor.git`
-2. Abra o arquivo `index.html` no navegador.

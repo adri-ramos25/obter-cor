@@ -14,12 +14,12 @@
 
     /* Pagina de selecao de cores */
     .box-background-colors{
-        width: 17em;
+        width: 15em;
     }
 
 
     /* Pagina que mostra a cor selecionada */
     #box-choosed-color{
-        width: 16em;
+        width: 14em;
     }
 }
