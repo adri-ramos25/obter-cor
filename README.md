@@ -40,7 +40,7 @@ Seleção de cor   #Permite que o usuário obtenha uma cor disponível nas opç�
 ```plaintext
 - JavaScript   #Para a lógica de seleção de cor
 - HTML         #Para a estrutura das páginas
-- CSS          #Para o estilo do projeto
+- CSS          #Para o estilo das páginas
 - Figma        #Para criar a interface do projeto
 ```
 

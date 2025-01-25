@@ -388,6 +388,8 @@ button{
     border: 5px solid #000;
     padding: 20px;
     width: 18em;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: none;
 }
 

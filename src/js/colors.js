@@ -66,7 +66,6 @@ btnChooseOtherColor.addEventListener("click", () => {
 
 function openCodesPage() {
     title.textContent = "Obter Cor - Cor Escolhida";
-    body.style.height = "100vh";
     header.style.marginTop = "0";
     header.style.marginBottom = "0";
     titleChooseColorPage.style.display = "none";
