@@ -52,6 +52,7 @@ Seleção de cor   #Permite que o usuário obtenha uma cor disponível nas opç�
 src/                      #Código-fonte do projeto
    css/                   #Pasta com arquivos CSS
       colors.css          #Estilos da página de seleção de cores
+      font-family.css     #Define uma única fonte para todos os elementos
       index.css           #Estilos principais da página inicial
       responsive.css      #Estilos para design responsivo
       tutorial.css        #Estilos da página de tutorial

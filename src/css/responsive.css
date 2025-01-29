@@ -14,7 +14,10 @@
 
     /* Pagina de selecao de cores */
     .box-background-colors{
-        width: 15em;
+        width: 16em;
+    }
+    .styles-btns-colors{
+        height: 40px;
     }
 
 
